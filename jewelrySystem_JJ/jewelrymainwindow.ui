@@ -1,0 +1,1310 @@
+<ui version="4.0" >
+ <class>jewelryMainWindowClass</class>
+ <widget class="QMainWindow" name="jewelryMainWindowClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1046</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>jewelryMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget" >
+   <layout class="QGridLayout" name="gridLayout_7" >
+    <item row="0" column="0" colspan="3" >
+     <widget class="QWidget" native="1" name="widget" >
+      <layout class="QGridLayout" name="gridLayout_2" >
+       <property name="margin" >
+        <number>0</number>
+       </property>
+       <property name="spacing" >
+        <number>0</number>
+       </property>
+       <item row="0" column="0" >
+        <widget class="QLabel" name="label_5" >
+         <property name="styleSheet" >
+          <string notr="true" >color: rgb(118, 118, 118);
+font: 75 9pt "微软雅黑";</string>
+         </property>
+         <property name="text" >
+          <string>珠宝销售系统</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4" >
+        <widget class="QPushButton" name="closeBTN" >
+         <property name="minimumSize" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3" >
+        <widget class="QPushButton" name="hidebTN" >
+         <property name="minimumSize" >
+          <size>
+           <width>30</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>30</width>
+           <height>20</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" >
+        <spacer name="horizontalSpacer_4" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>686</width>
+           <height>17</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="2" >
+        <widget class="QPushButton" name="update" >
+         <property name="minimumSize" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0" >
+     <widget class="QPushButton" name="cyywBTN" >
+      <property name="minimumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item rowspan="11" row="1" column="1" >
+     <widget class="QStackedWidget" name="stackedWidget" >
+      <property name="acceptDrops" >
+       <bool>true</bool>
+      </property>
+      <property name="currentIndex" >
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_0" />
+      <widget class="QWidget" name="page_1" >
+       <layout class="QGridLayout" name="gridLayout" >
+        <item row="0" column="5" >
+         <spacer name="verticalSpacer_9" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>93</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="6" >
+         <spacer name="horizontalSpacer_8" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>248</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item rowspan="3" row="2" column="0" >
+         <spacer name="horizontalSpacer_7" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>28</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="5" >
+         <spacer name="verticalSpacer_11" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>92</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="3" column="5" colspan="2" >
+         <spacer name="horizontalSpacer_5" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="4" column="5" >
+         <spacer name="verticalSpacer_25" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>92</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="5" column="6" >
+         <spacer name="horizontalSpacer_9" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>248</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="6" column="5" >
+         <spacer name="verticalSpacer_10" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>93</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="5" >
+         <widget class="QPushButton" name="qtxsBTN" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="5" >
+         <widget class="QPushButton" name="hhBTN" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item rowspan="3" row="2" column="3" >
+         <widget class="QPushButton" name="kcglBTN_1" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item rowspan="3" row="2" column="1" >
+         <widget class="QPushButton" name="cgjhBTN_1" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item rowspan="3" row="2" column="2" >
+         <widget class="QLabel" name="arrow1" >
+          <property name="minimumSize" >
+           <size>
+            <width>60</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>16777215</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4" >
+         <spacer name="verticalSpacer_26" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>57</width>
+            <height>32</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="6" column="4" >
+         <spacer name="verticalSpacer_27" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>57</width>
+            <height>33</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="4" >
+         <widget class="QLabel" name="arrow2" >
+          <property name="minimumSize" >
+           <size>
+            <width>60</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>16777215</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item rowspan="3" row="2" column="4" >
+         <spacer name="verticalSpacer_28" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>57</width>
+            <height>127</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="5" column="4" >
+         <widget class="QLabel" name="arrow3" >
+          <property name="minimumSize" >
+           <size>
+            <width>60</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>16777215</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+       <zorder>qtxsBTN</zorder>
+       <zorder>hhBTN</zorder>
+       <zorder>kcglBTN_1</zorder>
+       <zorder>cgjhBTN_1</zorder>
+       <zorder>arrow1</zorder>
+       <zorder>verticalSpacer_26</zorder>
+       <zorder>verticalSpacer_27</zorder>
+       <zorder>arrow2</zorder>
+       <zorder>verticalSpacer_28</zorder>
+       <zorder>arrow3</zorder>
+      </widget>
+      <widget class="QWidget" name="page_2" >
+       <layout class="QGridLayout" name="gridLayout_3" >
+        <item row="0" column="1" >
+         <spacer name="verticalSpacer_12" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>158</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0" >
+         <spacer name="horizontalSpacer_10" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>267</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="1" >
+         <widget class="QPushButton" name="cgjhBTN_2" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2" >
+         <spacer name="horizontalSpacer_11" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>266</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="1" >
+         <spacer name="verticalSpacer_13" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>158</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_3" >
+       <layout class="QGridLayout" name="gridLayout_4" >
+        <item row="0" column="1" >
+         <spacer name="verticalSpacer_14" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>160</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0" >
+         <spacer name="horizontalSpacer_12" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>267</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="1" >
+         <widget class="QPushButton" name="qtxsBTN_1" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2" >
+         <spacer name="horizontalSpacer_13" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>266</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="1" >
+         <spacer name="verticalSpacer_15" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>159</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_4" >
+       <layout class="QGridLayout" name="gridLayout_5" >
+        <item row="0" column="1" >
+         <spacer name="verticalSpacer_16" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>160</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="3" >
+         <spacer name="verticalSpacer_24" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>158</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0" >
+         <spacer name="horizontalSpacer_14" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>267</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="1" >
+         <widget class="QPushButton" name="pdBTN" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2" >
+         <spacer name="horizontalSpacer_26" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="3" >
+         <widget class="QPushButton" name="ckxxBTN_1" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4" >
+         <spacer name="horizontalSpacer_15" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>266</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="1" colspan="2" >
+         <spacer name="verticalSpacer_17" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>159</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="3" >
+         <spacer name="verticalSpacer_23" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>158</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_5" >
+       <layout class="QGridLayout" name="gridLayout_6" >
+        <item row="0" column="1" >
+         <spacer name="verticalSpacer_20" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>35</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="5" >
+         <spacer name="verticalSpacer_21" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>35</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="7" >
+         <spacer name="verticalSpacer_22" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>35</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0" >
+         <spacer name="horizontalSpacer_16" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>65</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="3" >
+         <spacer name="horizontalSpacer_17" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="6" >
+         <spacer name="horizontalSpacer_18" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="8" >
+         <spacer name="horizontalSpacer_22" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>208</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="0" >
+         <spacer name="horizontalSpacer_19" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>65</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="3" >
+         <spacer name="horizontalSpacer_20" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="6" colspan="3" >
+         <spacer name="horizontalSpacer_21" >
+          <property name="orientation" >
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>338</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="3" column="2" >
+         <spacer name="verticalSpacer_18" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>255</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="7" >
+         <widget class="QPushButton" name="printBTN_1" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2" >
+         <widget class="QPushButton" name="loginBTN" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="4" >
+         <widget class="QPushButton" name="settingsBTN" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2" >
+         <widget class="QPushButton" name="xtszBTN" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4" >
+         <widget class="QPushButton" name="printBTN" >
+          <property name="minimumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize" >
+           <size>
+            <width>130</width>
+            <height>130</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="4" >
+         <spacer name="verticalSpacer_19" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0" >
+           <size>
+            <width>20</width>
+            <height>255</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+       <zorder>printBTN_1</zorder>
+       <zorder>loginBTN</zorder>
+       <zorder>settingsBTN</zorder>
+       <zorder>xtszBTN</zorder>
+       <zorder>printBTN</zorder>
+       <zorder>verticalSpacer_19</zorder>
+      </widget>
+     </widget>
+    </item>
+    <item rowspan="10" row="1" column="2" >
+     <widget class="QGroupBox" name="groupBox_2" >
+      <property name="title" >
+       <string>报表</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout" >
+       <item>
+        <widget class="QPushButton" name="dayPTN" >
+         <property name="minimumSize" >
+          <size>
+           <width>100</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>100</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="monthPTN" >
+         <property name="minimumSize" >
+          <size>
+           <width>100</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>100</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer" >
+         <property name="orientation" >
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>20</width>
+           <height>140</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+      <zorder>monthPTN</zorder>
+      <zorder>dayPTN</zorder>
+     </widget>
+    </item>
+    <item row="2" column="0" >
+     <spacer name="verticalSpacer_8" >
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0" >
+       <size>
+        <width>20</width>
+        <height>32</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="0" >
+     <widget class="QPushButton" name="cgjhBTN" >
+      <property name="minimumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" >
+     <spacer name="verticalSpacer_7" >
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0" >
+       <size>
+        <width>20</width>
+        <height>33</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="0" >
+     <widget class="QPushButton" name="spxsBTN" >
+      <property name="minimumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" >
+     <spacer name="verticalSpacer_6" >
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0" >
+       <size>
+        <width>20</width>
+        <height>32</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="7" column="0" >
+     <widget class="QPushButton" name="kcglBTN" >
+      <property name="minimumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" >
+     <spacer name="verticalSpacer_5" >
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0" >
+       <size>
+        <width>20</width>
+        <height>33</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="9" column="0" >
+     <widget class="QPushButton" name="xtgjBTN" >
+      <property name="minimumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0" >
+     <spacer name="verticalSpacer_4" >
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0" >
+       <size>
+        <width>20</width>
+        <height>32</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item rowspan="2" row="11" column="0" >
+     <widget class="QPushButton" name="closeSystem" >
+      <property name="minimumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize" >
+       <size>
+        <width>150</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item rowspan="3" row="11" column="2" >
+     <spacer name="verticalSpacer_2" >
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0" >
+       <size>
+        <width>20</width>
+        <height>61</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item rowspan="3" row="12" column="1" >
+     <widget class="QGroupBox" name="groupBox" >
+      <property name="title" >
+       <string>基础资料</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout" >
+       <item>
+        <spacer name="horizontalSpacer_24" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>17</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="spdaBTN" >
+         <property name="minimumSize" >
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>93</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="hyxxBTN" >
+         <property name="minimumSize" >
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ckxxBTN" >
+         <property name="minimumSize" >
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="gysxxBTN" >
+         <property name="minimumSize" >
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_25" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>17</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item rowspan="2" row="13" column="0" >
+     <spacer name="verticalSpacer_3" >
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0" >
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="14" column="2" >
+     <spacer name="horizontalSpacer_23" >
+      <property name="orientation" >
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0" >
+       <size>
+        <width>188</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar" >
+   <property name="font" >
+    <font>
+     <stylestrategy>PreferAntialias</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet" >
+    <string notr="true" >color: rgb(134, 134, 134);</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources>
+  <include location="jewelrysystem_jj.qrc" />
+ </resources>
+ <connections/>
+</ui>

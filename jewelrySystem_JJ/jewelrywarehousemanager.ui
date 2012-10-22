@@ -1,0 +1,170 @@
+<ui version="4.0" >
+ <class>jewelryWarehouseManagerClass</class>
+ <widget class="QDialog" name="jewelryWarehouseManagerClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>828</width>
+    <height>547</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>jewelryWarehouseManager</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" >
+   <item row="0" column="0" >
+    <widget class="QWidget" native="1" name="widget_2" >
+     <layout class="QHBoxLayout" name="horizontalLayout_2" >
+      <item>
+       <widget class="QLabel" name="label" >
+        <property name="font" >
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="text" >
+         <string>仓库选择：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cbWarehouse" >
+        <property name="font" >
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2" >
+        <property name="orientation" >
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0" >
+         <size>
+          <width>666</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <widget class="QTableWidget" name="tableWidget" >
+     <property name="font" >
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <column>
+      <property name="text" >
+       <string>仓库编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>仓库描述</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>商品编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>商品类别</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>商品名称</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>商品售价</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>单品折扣</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>商品单位</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>库存量</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="2" column="0" >
+    <widget class="QWidget" native="1" name="widget" >
+     <layout class="QHBoxLayout" name="horizontalLayout" >
+      <item>
+       <spacer name="horizontalSpacer" >
+        <property name="orientation" >
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0" >
+         <size>
+          <width>706</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbSure" >
+        <property name="font" >
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="text" >
+         <string>确定</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

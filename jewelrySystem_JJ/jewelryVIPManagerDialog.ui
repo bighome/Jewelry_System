@@ -1,0 +1,186 @@
+<ui version="4.0" >
+ <class>jewelryVIPManagerDialogClass</class>
+ <widget class="QDialog" name="jewelryVIPManagerDialogClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>562</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>jewelryMembershipCardNumber</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" >
+   <item>
+    <widget class="QTableWidget" name="tableWidget" >
+     <property name="font" >
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="editTriggers" >
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode" >
+      <enum>QAbstractItemView::SingleSelection</enum>
+     </property>
+     <property name="selectionBehavior" >
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <column>
+      <property name="text" >
+       <string>卡号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>姓名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>性别</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>证件号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>联系电话</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>联系地址</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>会员卡类别</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>消费总额</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>积分情况</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>建卡时间</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" native="1" name="widget" >
+     <layout class="QHBoxLayout" name="horizontalLayout" >
+      <item>
+       <spacer name="horizontalSpacer" >
+        <property name="orientation" >
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0" >
+         <size>
+          <width>357</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbAdd" >
+        <property name="font" >
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="text" >
+         <string>添加</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbEdit" >
+        <property name="font" >
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="text" >
+         <string>修改</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbDelete" >
+        <property name="font" >
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="text" >
+         <string>删除</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbQuit" >
+        <property name="font" >
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="text" >
+         <string>退出</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

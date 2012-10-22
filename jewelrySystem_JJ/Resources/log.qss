@@ -1,0 +1,18 @@
+QPushButton[objectName="logMinClose"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/logMinClose.png)     
+}
+QPushButton[objectName="logMinClose"]:hover{   
+	border-image:url( :/jewelrySystem_JJ/Resources/logMinCloseMove.png)     
+}
+QPushButton[objectName="logEnter"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/logEnter.png)     
+}
+QPushButton[objectName="logEnter"]:hover{   
+	border-image:url( :/jewelrySystem_JJ/Resources/logEnterMove.png)     
+}
+QPushButton[objectName="logClose"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/logClose.png)     
+}
+QPushButton[objectName="logClose"]:hover{   
+	border-image:url( :/jewelrySystem_JJ/Resources/logCloseMove.png)     
+}

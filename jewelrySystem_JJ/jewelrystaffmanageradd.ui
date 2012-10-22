@@ -1,0 +1,207 @@
+<ui version="4.0" >
+ <class>jewelryStaffManagerAddClass</class>
+ <widget class="QDialog" name="jewelryStaffManagerAddClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="font" >
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>16</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+    <underline>false</underline>
+    <strikeout>false</strikeout>
+   </font>
+  </property>
+  <property name="windowTitle" >
+   <string>员工信息编辑</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" >
+   <item row="0" column="0" >
+    <widget class="QWidget" native="1" name="widget_4" >
+     <layout class="QGridLayout" name="gridLayout" >
+      <item row="0" column="0" >
+       <widget class="QLabel" name="label" >
+        <property name="text" >
+         <string>名字：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2" >
+       <widget class="QLineEdit" name="leName" />
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="label_2" >
+        <property name="text" >
+         <string>性别：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2" >
+       <widget class="QComboBox" name="cbGender" >
+        <item>
+         <property name="text" >
+          <string>女</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>男</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="5" column="0" colspan="2" >
+       <widget class="QLabel" name="label_6" >
+        <property name="text" >
+         <string>职务：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="2" >
+       <widget class="QLabel" name="label_7" >
+        <property name="text" >
+         <string>登陆密码：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2" >
+       <widget class="QLineEdit" name="lePassword" >
+        <property name="echoMode" >
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0" colspan="2" >
+       <widget class="QLabel" name="label_8" >
+        <property name="text" >
+         <string>仓库：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2" >
+       <widget class="QComboBox" name="cbWarehouse" />
+      </item>
+      <item row="2" column="2" >
+       <widget class="QLineEdit" name="lePaperworkID" />
+      </item>
+      <item row="2" column="0" >
+       <widget class="QLabel" name="label_3" >
+        <property name="text" >
+         <string>证件号：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" >
+       <widget class="QLabel" name="label_5" >
+        <property name="text" >
+         <string>入职日期：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2" >
+       <widget class="QDateTimeEdit" name="dateTimeEdit" />
+      </item>
+      <item row="5" column="2" >
+       <widget class="QComboBox" name="cbPost" >
+        <item>
+         <property name="text" >
+          <string>管理员</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>会计</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>采购</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>销售</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <widget class="QWidget" native="1" name="widget_5" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font" >
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout" >
+      <item>
+       <spacer name="horizontalSpacer" >
+        <property name="orientation" >
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0" >
+         <size>
+          <width>324</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbOK" >
+        <property name="text" >
+         <string>确定</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbCancel" >
+        <property name="text" >
+         <string>取消</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+     <zorder>horizontalSpacer</zorder>
+     <zorder>pbOK</zorder>
+     <zorder>pbCancel</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <tabstops>
+  <tabstop>leName</tabstop>
+  <tabstop>cbGender</tabstop>
+  <tabstop>lePaperworkID</tabstop>
+  <tabstop>dateTimeEdit</tabstop>
+  <tabstop>lePassword</tabstop>
+  <tabstop>cbWarehouse</tabstop>
+  <tabstop>pbOK</tabstop>
+  <tabstop>pbCancel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,208 @@
+
+QLabel[objectName="arrow1"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/Untitled-2.png)     
+}
+
+QLabel[objectName="arrow2"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/Untitled-2.png)     
+}
+
+QLabel[objectName="arrow3"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/Untitled-2.png)     
+}
+QPushButton[objectName="update"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/update.png)     
+}
+QPushButton[objectName="update"]:hover{   
+	border-image:url( :/jewelrySystem_JJ/Resources/updateMove.png)     
+}
+QPushButton[objectName="closeBTN"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/close.png)     
+}
+QPushButton[objectName="closeBTN"]:hover{   
+	border-image:url( :/jewelrySystem_JJ/Resources/closeMove.png)     
+}
+QPushButton[objectName="hidebTN"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/hide.png)     
+}
+QPushButton[objectName="hidebTN"]:hover{   
+	border-image:url( :/jewelrySystem_JJ/Resources/hideMove.png)     
+}
+
+
+QPushButton[objectName="cyywBTN"]{   
+	border-image:url( :/jewelrySystem_JJ/Resources/1-0changyongyewu.png)     
+}
+QPushButton[objectName="cyywBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-0hangyongyewu2.png)     
+}
+
+QPushButton[objectName="cgjhBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/2-0caigoujinhuo.png)     
+}
+QPushButton[objectName="cgjhBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/2-0caigoujinhuo2.png)     
+}
+
+QPushButton[objectName="spxsBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/3-0shangpinxiaoshou.png)     
+}
+QPushButton[objectName="spxsBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/3-0shangpinxiaoshou2.png)     
+}
+
+QPushButton[objectName="kcglBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/4-0kucunguanli.png)     
+}
+QPushButton[objectName="kcglBTN"]:hover{   
+	border-image:url( :/jewelrySystem_JJ/Resources/4-0kucunguanli2.png)     
+}
+
+
+QPushButton[objectName="xtgjBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-0xitonggongju.png)     
+}
+QPushButton[objectName="xtgjBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-0xitonggongju2.png)     
+}
+
+QPushButton[objectName="closeSystem"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/6-0tuichuxitong.png)     
+}
+QPushButton[objectName="closeSystem"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/6-0tuichuxitong2.png)     
+}
+
+QPushButton[objectName="cgjhBTN_1"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-1caigoujinhuo.png)     
+}
+QPushButton[objectName="cgjhBTN_1"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-1caigoujinhuo2.png)     
+}
+
+QPushButton[objectName="kcglBTN_1"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-2kucunguanli.png)     
+}
+QPushButton[objectName="kcglBTN_1"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-2kucunguanli2.png)     
+}
+
+QPushButton[objectName="qtxsBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-3qiantailingshou.png)     
+}
+QPushButton[objectName="qtxsBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-3qiantailingshou2.png)     
+}
+
+QPushButton[objectName="hhBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-4tuihuo.png)     
+}
+QPushButton[objectName="hhBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-4tuihuo2.png)     
+}
+
+QPushButton[objectName="cgjhBTN_2"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-1caigoujinhuo.png)     
+}
+QPushButton[objectName="cgjhBTN_2"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-1caigoujinhuo2.png)     
+}
+
+QPushButton[objectName="qtxsBTN_1"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-3qiantailingshou.png)     
+}
+QPushButton[objectName="qtxsBTN_1"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/1-3qiantailingshou2.png)     
+}
+
+QPushButton[objectName="pdBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/4-1kucunpandian.png)     
+}
+QPushButton[objectName="pdBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/4-1kucunpandian2.png)     
+}
+
+QPushButton[objectName="ckxxBTN_1"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/2cangkuxinxi.png)     
+}
+QPushButton[objectName="ckxxBTN_1"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/2cangkuxinxi2.png)     
+}
+
+QPushButton[objectName="xtszBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-1xitongshezhi.png)     
+}
+QPushButton[objectName="xtszBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-1xitongshezhi2.png)     
+}
+
+QPushButton[objectName="printBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-2dayinshezhi.png)     
+}
+QPushButton[objectName="printBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-2dayinshezhi2.png)     
+}
+
+QPushButton[objectName="printBTN_1"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-3dayinbiaojiaqian.png)     
+}
+QPushButton[objectName="printBTN_1"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-3dayinbiaojiaqian2.png)     
+}
+
+QPushButton[objectName="settingsBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-5qitashezhi.png)     
+}
+QPushButton[objectName="settingsBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-5qitashezhi2.png)     
+}
+
+QPushButton[objectName="loginBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-4genghuancaozuoyuan.png)     
+}
+QPushButton[objectName="loginBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/5-4genghuancaozuoyuan2.png)     
+}
+
+QPushButton[objectName="spdaBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/shangpindangan.png)     
+}
+QPushButton[objectName="spdaBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/shangpindangan2.png)     
+}
+
+QPushButton[objectName="hyxxBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/huiyuanxinxi.png)     
+}
+QPushButton[objectName="hyxxBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/huiyuanxinxi2.png)     
+}
+
+QPushButton[objectName="ckxxBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/cangkuxinxi.png)     
+}
+QPushButton[objectName="ckxxBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/cangkuxinxi2.png)     
+}
+
+QPushButton[objectName="gysxxBTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/gongyingshangxinxi.png)     
+}
+QPushButton[objectName="gysxxBTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/gongyingshangxinxi2.png)     
+}
+
+
+QPushButton[objectName="dayPTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/ribaobiao.png)     
+}
+QPushButton[objectName="dayPTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/ribaobiao2.png)     
+}
+
+QPushButton[objectName="monthPTN"]{   
+	border-image:url(:/jewelrySystem_JJ/Resources/yuebaobiao.png)     
+}
+QPushButton[objectName="monthPTN"]:hover{   
+	border-image:url(:/jewelrySystem_JJ/Resources/yuebaobiao2.png)     
+}

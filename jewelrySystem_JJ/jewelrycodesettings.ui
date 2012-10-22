@@ -1,0 +1,201 @@
+<ui version="4.0" >
+ <class>jewelryCodeSettingsClass</class>
+ <widget class="QWidget" name="jewelryCodeSettingsClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>645</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>jewelryCodeSettings</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4" >
+   <item rowspan="2" row="0" column="0" >
+    <widget class="QWidget" native="1" name="widget" >
+     <property name="styleSheet" >
+      <string notr="true" >background-color: rgb(185, 169, 87);</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" >
+      <item row="0" column="0" >
+       <widget class="QWidget" native="1" name="printfWidget" >
+        <property name="maximumSize" >
+         <size>
+          <width>1000</width>
+          <height>1000</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(254, 254, 254);</string>
+        </property>
+        <widget class="QWidget" native="1" name="codeWidget" >
+         <property name="geometry" >
+          <rect>
+           <x>140</x>
+           <y>130</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet" >
+          <string notr="true" >border-image: url(:/jewelrySystem_JJ/Resources/code.png);</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2" >
+    <widget class="QGroupBox" name="groupBox" >
+     <property name="title" >
+      <string>标签属性</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3" >
+      <item row="0" column="0" >
+       <widget class="QLabel" name="label_2" >
+        <property name="text" >
+         <string>标签宽：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" >
+       <widget class="QLabel" name="label_3" >
+        <property name="text" >
+         <string>标签高：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" >
+       <widget class="QDoubleSpinBox" name="labelWidgetSB" >
+        <property name="maximum" >
+         <double>100.000000000000000</double>
+        </property>
+        <property name="value" >
+         <double>100.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1" >
+       <widget class="QDoubleSpinBox" name="lableHeightSB" >
+        <property name="maximum" >
+         <double>60.000000000000000</double>
+        </property>
+        <property name="value" >
+         <double>60.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2" >
+    <widget class="QGroupBox" name="groupBox_2" >
+     <property name="title" >
+      <string>条码属性</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2" >
+      <item row="0" column="0" >
+       <widget class="QLabel" name="label_4" >
+        <property name="text" >
+         <string>X 尺寸：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" >
+       <widget class="QComboBox" name="comboBox" />
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="label_5" >
+        <property name="text" >
+         <string>条码比：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QComboBox" name="comboBox_2" />
+      </item>
+      <item row="2" column="0" >
+       <widget class="QLabel" name="label_6" >
+        <property name="text" >
+         <string>码 高：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1" >
+       <widget class="QComboBox" name="comboBox_3" />
+      </item>
+      <item row="3" column="0" >
+       <widget class="QLabel" name="label_7" >
+        <property name="text" >
+         <string>位置 X：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1" >
+       <widget class="QDoubleSpinBox" name="codeXSB" >
+        <property name="maximum" >
+         <double>999.990000000000009</double>
+        </property>
+        <property name="value" >
+         <double>10.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" >
+       <widget class="QLabel" name="label_9" >
+        <property name="text" >
+         <string>位置 Y：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1" >
+       <widget class="QDoubleSpinBox" name="codeYSB" >
+        <property name="maximum" >
+         <double>999.990000000000009</double>
+        </property>
+        <property name="value" >
+         <double>30.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" >
+    <spacer name="horizontalSpacer" >
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>432</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1" >
+    <widget class="QPushButton" name="enter" >
+     <property name="text" >
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" >
+    <widget class="QPushButton" name="exit" >
+     <property name="text" >
+      <string>取消</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources>
+  <include location="jewelrysystem_jj.qrc" />
+ </resources>
+ <connections/>
+</ui>
